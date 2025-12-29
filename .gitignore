@@ -1,0 +1,52 @@
+# =====================
+# Environment & Secrets
+# =====================
+.env
+.env.local
+.env.*.local
+*firebase-adminsdk*.json
+
+# =====================
+# Node / Firebase
+# =====================
+node_modules/
+.firebase/
+backend/functions/node_modules/
+
+# =====================
+# Firebase Debug Logs
+# =====================
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+
+# =====================
+# Android / Mobile App
+# =====================
+*.apk
+*.aab
+*.keystore
+local.properties
+.gradle/
+build/
+captures/
+.externalNativeBuild
+.cxx
+
+# =====================
+# IDE / OS
+# =====================
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# =====================
+# Logs
+# =====================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

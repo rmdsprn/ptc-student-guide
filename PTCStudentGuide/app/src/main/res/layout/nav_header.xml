@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#2E7D32">
+
+    <!-- PTC LOGO -->
+    <ImageView
+        android:id="@+id/homeLogo"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/ptc_logo"
+        android:contentDescription="PTC Logo"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- APP NAME -->
+    <TextView
+        android:layout_marginTop="8dp"
+        android:text="PTC Student Guide"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- TAGLINE -->
+    <TextView
+        android:text="Your Campus Companion"
+        android:textColor="#E0E0E0"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- DIVIDER -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#80FFFFFF"
+        android:layout_marginBottom="12dp"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:padding="2dp"
+        android:background="#2E7D32">
+
+        <!-- APP NAME -->
+        <TextView
+            android:id="@+id/userNameText"
+            android:text="Juan Dela Cruz"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+
+        <!-- USER EMAIL -->
+        <TextView
+            android:id="@+id/userEmailText"
+            android:text="student@ptc.edu.ph"
+            android:textColor="#E0E0E0"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h1 class="h3 text-gray-800">Admin Accounts</h1>
+
+  <button class="btn btn-primary" id="addAdminBtn">
+    <i class="fas fa-user-plus"></i> Add Admin
+</button>
+</div>
+
+
+
+<table id="adminTable" class="table table-bordered table-striped w-100">
+  <thead>
+    <tr>
+      <th>Email</th>
+      <th>Role</th>
+      <th>Status</th>
+      <th>Created At</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<!-- ADD / EDIT MODAL -->
+<div class="modal fade" id="adminModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="adminModalTitle">Add Admin</h5>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+        <input type="hidden" id="adminId">
+
+        <div class="mb-3">
+          <label class="form-label">Email</label>
+          <input id="adminEmailInput" class="form-control" type="email">
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Role</label>
+          <select id="adminRoleInput" class="form-select">
+            <option value="admin">Admin</option>
+            <option value="super_admin">Super Admin</option>
+          </select>
+        </div>
+
+        <div class="form-check">
+          <input id="adminActiveInput" class="form-check-input" type="checkbox" checked>
+          <label class="form-check-label">Active</label>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <button id="saveAdminBtn" class="btn btn-primary">Save</button>
+      </div>
+
+    </div>
+  </div>
+</div>

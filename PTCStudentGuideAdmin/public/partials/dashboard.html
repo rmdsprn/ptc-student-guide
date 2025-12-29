@@ -1,0 +1,119 @@
+<h1 class="h3 mb-4 text-gray-800">Dashboard</h1>
+
+<!-- TOP STATS -->
+<div class="row">
+
+  <!-- Total Chats -->
+  <div class="col-md-4 mb-4">
+    <div class="card border-left-primary shadow h-100 py-2">
+      <div class="card-body">
+        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+          Total Chats
+        </div>
+        <div id="totalChats" class="h5 mb-0 font-weight-bold text-gray-800">—</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Knowledge Entries -->
+  <div class="col-md-4 mb-4">
+    <div class="card border-left-success shadow h-100 py-2">
+      <div class="card-body">
+        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+          Knowledge Entries
+        </div>
+        <div id="totalKnowledge" class="h5 mb-0 font-weight-bold text-gray-800">—</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Admin Accounts -->
+  <div class="col-md-4 mb-4">
+    <div class="card border-left-info shadow h-100 py-2">
+      <div class="card-body">
+        <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+          Admin Accounts
+        </div>
+        <div id="totalAdmins" class="h5 mb-0 font-weight-bold text-gray-800">—</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- SECOND ROW -->
+<div class="row">
+
+  <!-- AI Health -->
+  <div class="col-md-6 mb-4">
+    <div class="card shadow h-100">
+      <div class="card-body">
+        <h6 class="font-weight-bold text-primary mb-3">
+          🤖 AI Decision Summary
+        </h6>
+        <p class="mb-1">
+          ✔ Auto-selected intent:
+          <strong id="aiAutoMatched">—</strong>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Most Asked Topics -->
+  <div class="col-md-6 mb-4">
+    <div class="card shadow h-100">
+      <div class="card-body">
+        <h6 class="font-weight-bold text-success mb-3">
+          📌 Most Asked Topics
+        </h6>
+        <ul id="topIntents" class="mb-0 small text-gray-800">
+          <li>—</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- THIRD ROW -->
+<div class="row">
+
+  <!-- Recent Activity -->
+  <div class="col-md-6 mb-4">
+    <div class="card shadow h-100">
+      <div class="card-body">
+        <h6 class="font-weight-bold text-secondary mb-3">
+          🕒 Recent Activity
+        </h6>
+        <ul id="recentActivity" class="mb-0 small text-gray-700">
+          <li>—</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Quick Actions -->
+  <div class="col-md-6 mb-4">
+    <div class="card shadow h-100">
+      <div class="card-body">
+        <h6 class="font-weight-bold text-dark mb-3">
+          ⚡ Quick Actions
+        </h6>
+
+        <div class="d-flex flex-column gap-2">
+          <a href="#" data-page="knowledge" class="btn btn-outline-primary btn-sm">
+            ➕ Add Knowledge
+          </a>
+          <a href="#" data-page="intents" class="btn btn-outline-success btn-sm">
+            🤖 Review AI Suggestions
+          </a>
+          <a href="#" data-page="admins" class="btn btn-outline-info btn-sm">
+            👤 Manage Admins
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>

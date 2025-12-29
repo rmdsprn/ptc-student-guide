@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <!-- 🏫 PTC LOGO -->
+    <ImageView
+        android:id="@+id/homeLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ptc_logo"
+        android:contentDescription="PTC Logo"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- 👋 WELCOME TEXT -->
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to PTC Student Guide"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#2E7D32"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- 🏷 TAGLINE -->
+    <TextView
+        android:id="@+id/homeTagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Campus Companion"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- 💬 CHAT NOW BUTTON -->
+    <Button
+        android:id="@+id/btnChatNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chat Now"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#2E7D32"
+        android:paddingVertical="12dp"/>
+
+</LinearLayout>
