@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "806927741946",
+    "project_id": "ptc-student-guide",
+    "storage_bucket": "ptc-student-guide.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806927741946:android:8263977b95b9e4eb34ea43",
+        "android_client_info": {
+          "package_name": "com.ptc.psg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806927741946-p8f9h3bvj3bjkpddl1bbt3kq40s88ki6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ptc.psg",
+            "certificate_hash": "8167d2dc3a2ffe0f079aed00a20625431568ab98"
+          }
+        },
+        {
+          "client_id": "806927741946-2npk10roifn7h8j605m2a22rbuikr769.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG-tkjmDn_YGswSHBFWPF2vPfeJA-k5Vw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806927741946-2npk10roifn7h8j605m2a22rbuikr769.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
